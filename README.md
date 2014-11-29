@@ -1,4 +1,4 @@
-vegan-today.github.io
+Vegan Today Website
 =====================
 
 Main vegan.today website
