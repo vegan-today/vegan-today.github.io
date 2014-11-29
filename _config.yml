@@ -1,0 +1,13 @@
+# Site settings
+title: Vegan Today
+email: vgn2day@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  It took me 35 years to realize that what I was doing was wrong. Now trying I'm trying to
+  clean up my mess.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://vegan.today" # the base hostname & protocol for your site
+twitter_username: vgn2d
+github_username:  vegantoday
+
+# Build settings
+markdown: kramdown
