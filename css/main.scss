@@ -5,37 +5,37 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "../_sass/settings.variables",
-  "../_sass/bower_components/inuit-defaults/settings.defaults",
-  "../_sass/bower_components/inuit-responsive-settings/settings.responsive",
+  "settings.variables",
+  "bower_components/inuit-defaults/settings.defaults",
+  "bower_components/inuit-responsive-settings/settings.responsive",
 
-  "../_sass/bower_components/inuit-functions/tools.functions",
-  "../_sass/bower_components/inuit-mixins/tools.mixins",
-  "../_sass/bower_components/inuit-responsive-tools/tools.responsive",
+  "bower_components/inuit-functions/tools.functions",
+  "bower_components/inuit-mixins/tools.mixins",
+  "bower_components/inuit-responsive-tools/tools.responsive",
 
-  "../_sass/bower_components/inuit-box-sizing/generic.box-sizing",
-  "../_sass/bower_components/inuit-normalize/generic.normalize",
-  "../_sass/bower_components/inuit-shared/generic.shared",
+  "bower_components/inuit-box-sizing/generic.box-sizing",
+  "bower_components/inuit-normalize/generic.normalize",
+  "bower_components/inuit-shared/generic.shared",
 
-  "../_sass/bower_components/inuit-page/base.page",
-  "../_sass/base.typography",
-  "../_sass/base.links",
-  "../_sass/bower_components/inuit-headings/base.headings",
-  "../_sass/bower_components/inuit-paragraphs/base.paragraphs",
-  "../_sass/bower_components/inuit-images/base.images",
+  "bower_components/inuit-page/base.page",
+  "base.typography",
+  "base.links",
+  "bower_components/inuit-headings/base.headings",
+  "bower_components/inuit-paragraphs/base.paragraphs",
+  "bower_components/inuit-images/base.images",
 
-  "../_sass/bower_components/inuit-layout/objects.layout",
+  "bower_components/inuit-layout/objects.layout",
 
-  "../_sass/components.header",
-  "../_sass/components.footer",
-  "../_sass/components.nav",
-  "../_sass/components.post",
+  "components.header",
+  "components.footer",
+  "components.nav",
+  "components.post",
 
-  "../_sass/bower_components/inuit-widths/trumps.widths",
-  "../_sass/bower_components/inuit-widths-responsive/trumps.widths-responsive",
-  "../_sass/bower_components/inuit-spacing/trumps.spacing",
-  "../_sass/bower_components/inuit-spacing-responsive/trumps.spacing-responsive",
-  "../_sass/bower_components/inuit-clearfix/trumps.clearfix",
+  "bower_components/inuit-widths/trumps.widths",
+  "bower_components/inuit-widths-responsive/trumps.widths-responsive",
+  "bower_components/inuit-spacing/trumps.spacing",
+  "bower_components/inuit-spacing-responsive/trumps.spacing-responsive",
+  "bower_components/inuit-clearfix/trumps.clearfix",
 
   "syntax-highlighting"
 ;
