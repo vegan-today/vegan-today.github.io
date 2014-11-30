@@ -1,4 +1,4 @@
-# Site settings
+  # Site settings
 title: Vegan Today
 email: vgn2day@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -11,3 +11,4 @@ github_username:  vegantoday
 
 # Build settings
 markdown: kramdown
+include: [_fonts]

@@ -3,50 +3,39 @@
 ---
 @charset "utf-8";
 
-
-
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
-
-$spacing-unit:     30px;
-
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
-
-
-
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+  "../_sass/settings.variables",
+  "../_sass/bower_components/inuit-defaults/settings.defaults",
+  "../_sass/bower_components/inuit-responsive-settings/settings.responsive",
+
+  "../_sass/bower_components/inuit-functions/tools.functions",
+  "../_sass/bower_components/inuit-mixins/tools.mixins",
+  "../_sass/bower_components/inuit-responsive-tools/tools.responsive",
+
+  "../_sass/bower_components/inuit-box-sizing/generic.box-sizing",
+  "../_sass/bower_components/inuit-normalize/generic.normalize",
+  "../_sass/bower_components/inuit-shared/generic.shared",
+
+  "../_sass/bower_components/inuit-page/base.page",
+  "../_sass/base.typography",
+  "../_sass/base.links",
+  "../_sass/bower_components/inuit-headings/base.headings",
+  "../_sass/bower_components/inuit-paragraphs/base.paragraphs",
+  "../_sass/bower_components/inuit-images/base.images",
+
+  "../_sass/bower_components/inuit-layout/objects.layout",
+
+  "../_sass/components.header",
+  "../_sass/components.footer",
+  "../_sass/components.nav",
+  "../_sass/components.post",
+
+  "../_sass/bower_components/inuit-widths/trumps.widths",
+  "../_sass/bower_components/inuit-widths-responsive/trumps.widths-responsive",
+  "../_sass/bower_components/inuit-spacing/trumps.spacing",
+  "../_sass/bower_components/inuit-spacing-responsive/trumps.spacing-responsive",
+  "../_sass/bower_components/inuit-clearfix/trumps.clearfix",
+
+  "syntax-highlighting"
 ;
