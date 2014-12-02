@@ -11,4 +11,4 @@ github_username:  vegantoday
 
 # Build settings
 markdown: kramdown
-include: [_fonts]
+include: ["_fonts"]
