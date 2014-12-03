@@ -6,9 +6,15 @@ $inuit-base-line-height: 24px !default;
 
 
 
-// COLORS
-$inuit-base-text-color: #25371f !default;
-$inuit-base-background-color: #fffae5 !default;
+// COLORS - literals
+$green-light: #8ad672;
+$green-dark: #258774;
+$orange-light: #f49537;
+$orange-dark: #be7333;
+
+// COLORS - abstracted
+$inuit-base-text-color: #333;
+$inuit-base-background-color: #fff;
 
 
 
