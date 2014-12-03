@@ -1,3 +1,10 @@
 .header {
 
 }
+
+.header__logo {
+    pointer-events: none; // to make the SVG clickable
+    display: block;
+    margin: 0 auto $double-space;
+    width: 376px;
+}
