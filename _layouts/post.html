@@ -4,8 +4,9 @@ layout: default
 <section class="post">
 
     <header class="post__header">
-        <h1 class="post__title">{{ page.title }}</h1>
-        <p class="post__meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <h1 class="post__title beta">{{ page.title }}</h1>
+        <time class="post__meta post__date" datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date: "%m/%d/%Y" }}</time>
+        {% if page.author %}<p class="post__author">By {{ page.author }}</p>{% endif %}
     </header>
 
     <article class="post__content">

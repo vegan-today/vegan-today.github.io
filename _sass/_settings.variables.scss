@@ -1,20 +1,33 @@
-// FONTS
-$inuit-base-font-size: 16px !default;
-$inuit-base-line-height: 24px !default;
-
-
-
-
-
 // COLORS - literals
 $green-light: #8ad672;
 $green-dark: #258774;
 $orange-light: #f49537;
 $orange-dark: #be7333;
+$grey: #909090;
 
 // COLORS - abstracted
-$inuit-base-text-color: #333;
+$color-text: #333;
+$color-text-muted: $grey;
+$color-text-highlight: $green-dark;
+$color-links: $orange-dark;
+
+
+
+
+
+// INUIT - defaults
+$inuit-base-font-size: 16px;
+$inuit-base-line-height: 24px;
+
+$inuit-base-text-color: $color-text;
 $inuit-base-background-color: #fff;
+
+$inuit-heading-size-1: 36px;
+$inuit-heading-size-2: 26px;
+$inuit-heading-size-3: 22px;
+$inuit-heading-size-4: 18px;
+$inuit-heading-size-5: 14px;
+$inuit-heading-size-6: 12px;
 
 
 
@@ -23,3 +36,10 @@ $inuit-base-background-color: #fff;
 // SPACING
 $single-space: $inuit-base-line-height;
 $double-space: $inuit-base-line-height * 2;
+
+
+
+
+
+
+

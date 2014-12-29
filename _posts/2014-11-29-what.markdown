@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What it means to be vegan"
-date:   2014-11-29 14:16:46
-categories: veganism
+title: "What it means to be vegan"
+date: 2014-11-29 14:16:46
+categories: learn
 ---
-What being vegan means to me is simple: it's to live in a way that minimizes the amount of suffering in the world as much as possible.
+What being vegan means is deceptively simple: it's to live in a way that minimizes the amount of suffering in the world as much as possible.

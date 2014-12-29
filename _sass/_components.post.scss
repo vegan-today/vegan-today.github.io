@@ -1,0 +1,27 @@
+// POST SINGLE
+.post__header {
+	.post__date {
+		display: block;
+		margin-bottom: $single-space;
+	}
+}
+
+.post__title {
+	margin-bottom: 0;
+}
+
+.post__meta {
+    font-family: $typewriter;
+    @include inuit-font-size(18px);
+    color: $color-text-muted;
+}
+
+
+
+
+
+// POST LIST
+.post__list {
+	margin-left: 0;
+	list-style-type: none;
+}
